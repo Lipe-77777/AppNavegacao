@@ -22,4 +22,23 @@
         app:layout_constraintTop_toTopOf="parent"
         app:title="Perfil"
         app:titleTextColor="#F0E9E9" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="104dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2"
+        app:srcCompat="@drawable/outline_account_circle_24" />
+
+    <TextView
+        android:id="@+id/TextEditNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="218dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
